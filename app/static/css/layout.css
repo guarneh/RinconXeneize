@@ -69,3 +69,26 @@
   .bd-mode-toggle {
     z-index: 1500;
   }
+
+  .zoom{
+    transition: transform .4s;
+  }
+
+  .zoom:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+  }
+
+  nav{
+    background-color: rgb(6, 1, 171);
+  }
+
+  footer{
+    background-color: rgb(200, 153, 0);
+    color: black;
+  }
+
+  
+
+  
